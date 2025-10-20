@@ -108,27 +108,12 @@
             box-shadow: 0 12px 24px rgba(255, 107, 157, 0.3);
         }
 
-        .no-btn {
-            background: linear-gradient(45deg, #a8a8a8, #d3d3d3);
-            color: white;
-        }
+      
 
-        .no-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 24px rgba(168, 168, 168, 0.3);
-        }
+     
+     
 
-        .retry-message {
-            margin-top: 20px;
-            animation: shake 0.5s ease-in-out;
-        }
-
-        .retry-message p {
-            font-family: 'SVN Dear Jane', 'Pacifico', 'Great Vibes', cursive;
-            font-size: 20px;
-            color: #ff6b9d;
-            margin: 0;
-        }
+        
 
         @keyframes shake {
             0%, 100% { transform: translateX(0); }
@@ -145,24 +130,24 @@
         }
 
         .sticker-right {
-            top: 10%;
-            right: 10%;
+            top: 20%;
+            right: 16%;
         }
 
         .sticker-left {
-            top: 0%;
-            left: 0%;
+            top: 5%;
+            left: 15%;
             animation: float 4s ease-in-out infinite 2s; /* Different timing for variety */
         }
 
         .sticker-bottomright {
-            bottom: 5%;
-            right: 5%;
+            bottom: 0%;
+            right: 20%;
         }
 
         .sticker-bottomleft {
             bottom: 5%;
-            left: 5%;
+            left: 20%;
         }
 
         .sticker-img {
@@ -173,8 +158,8 @@
         }
 
         .sticker-left .sticker-img {
-            width: 480px;
-            height: 480px;
+            width: 350px;
+            height: 350px;
         }
 
         @keyframes float {
@@ -1085,10 +1070,10 @@
 
     <div class="container" id="rose-t">
         <div class="question-container">
-            <h1 class="question">Do u like like like meeee? 💕</h1>
+            
             <div class="answer-buttons">
-                <button class="answer-btn yes-btn" onclick="handleYes()">Yes 💖</button>
-                <button class="answer-btn no-btn" onclick="handleNo()">No 😢</button>
+                <button class="answer-btn yes-btn" onclick="handleYes()">Bấm vào đây điiiii</button>
+                
             </div>
             <div id="retry-message" class="retry-message" style="display: none;">
                 <p>Wrong answer gurl!!! Are u fr??????</p>
@@ -1097,10 +1082,10 @@
         
         <!-- Cute Stickers -->
         <div class="cute-sticker sticker-right">
-            <img src="./imageee/download-removebg-preview.png" alt="cute sticker" class="sticker-img">
+            <img src="./imageee/download-removebg-preview-2.png" alt="cute sticker" class="sticker-img">
         </div>
         <div class="cute-sticker sticker-left">
-            <img src="./imageee/22222-removebg-preview.png" alt="cute sticker 2" class="sticker-img">
+            <img src="./imageee/download__1_-removebg-preview.png" alt="cute sticker 2" class="sticker-img">
         </div>
         <div class="cute-sticker sticker-bottomright">
             <img src="./imageee/Meme_meo_tang_hoa_7_944b242321-removebg-preview.png" alt="cute sticker 2" class="sticker-img">
@@ -1418,7 +1403,7 @@
         // .textLetter text h2
         let indexText = 0;
         let textLetter = document.querySelector('.textLetter h2');
-        const textLetterH2 = "Gửi paxinh!";
+        const textLetterH2 = "Gửi hàaa!";
         let timoutTextLetter;
 
         function textCharLetter() {
@@ -1446,7 +1431,7 @@
         // chữ của thư bạn muốn gửi
         let indexTextContent = 0;
         let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = "Hôm nay là ngày 20/10. Tớ chúc pa thật hạnh phúccc, yêu bản thân hơn, và sớm có được tớ nhéee 💗. Khi nào ra hn tớ dẫn cậuuu đi chơi bù nhaaaaaaaa 💗💗💗.";
+        const textLetterP = "Hôm nay là ngày 20/10. Tớ chúc hà thật hạnh phúccc, yêu bản thân hơn, và đỗ vào trường sân khấu điện ảnh nhé. Khi nào ra hn tớ dẫn cậuu đi chơi bù nhaaaa.";
         let timoutTextLetterContent;
         function textCharLetterContent() {
             if (indexTextContent < textLetterP.length) {
